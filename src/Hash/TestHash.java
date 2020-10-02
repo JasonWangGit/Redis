@@ -7,7 +7,7 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.ScanParams;
 
 public class TestHash {
-	private static final String KEY = "employee";
+	private static final String KEY = "employee_hash";
 	private static final String EMPLOYEE_ID = "employee_id";
 	private static final String FIRST_NAME = "first_name";
 	private static final String LAST_NAME = "last_name";
